@@ -49,7 +49,7 @@ let friendsArray = [
       },
       {
         "name":"Phil",
-        "photo":"https://i.kym-cdn.com/entries/icons/original/000/000/027/advicedog.jpg",
+        "photo":"https://gjjvdburg.github.io/HugoPhotoSwipe-Demo/pics/dogs/thumb/pexels-photo-60254_256x256.jpg",
         "scores":[
             1,
             3,
