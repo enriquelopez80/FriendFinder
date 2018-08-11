@@ -20,9 +20,9 @@ module.exports = function (app) {
 
         //console.log(req.body.scores)
 
-        let person = req.body
+        let person = req.body;
 
-        let numArray = []
+        let numArray = [];
 
         person.scores.forEach(function (score) {
             numArray.push(score * 1);
@@ -37,14 +37,14 @@ module.exports = function (app) {
 
         friendsData.forEach(function (friend) {
 
-            totalDiff = 0
+            totalDiff = 0;
 
             for (let i = 0; i < friend.scores.length; i++) {
-                totalDiff += Math.abs(friend.scores[i] - person.scores[i])
+                totalDiff += Math.abs(friend.scores[i] - person.scores[i]);
             }
             //console.log(totalDiff)
 
-            allDifferences.push(totalDiff)
+            allDifferences.push(totalDiff);
         })
 
         //console.log(allDifferences)
@@ -59,11 +59,11 @@ module.exports = function (app) {
             }
         });
 
-        let match = friendsData[finalIndex]
+        let match = friendsData[finalIndex];
 
-        friendsData.push(person)
+        friendsData.push(person);
 
-        res.json(match)
+        res.json(match);
 
     });
 

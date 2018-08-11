@@ -254,15 +254,15 @@
                 url: "/api/friends",
                 data: newFriend,
                 success: function (res) {
-                    console.log("success!")
+                    console.log("success!");
 
-                    let name = res.name
-                    let photo = res.photo
+                    let name = res.name;
+                    let photo = res.photo;
 
-                    $("#matchName").text(name)
-                    $("#matchPic").attr("src", photo)
+                    $("#matchName").text(name);
+                    $("#matchPic").attr("src", photo);
 
-                    $("#resultsModal").modal("toggle")
+                    $("#resultsModal").modal("toggle");
 
                     // Clear the form when submitting
                     $("#friend-name").val("");
@@ -280,8 +280,7 @@
                     $("#q10").val("");
                 }
             });
-            console.log(newFriend);
-
+            // console.log(newFriend);
         });
 
 
