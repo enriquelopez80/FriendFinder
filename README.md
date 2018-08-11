@@ -1,4 +1,4 @@
-# FriendFinder
+# Friend Finder
 
 ## Description
 
@@ -8,4 +8,4 @@ The app is run using [node.js](https://nodejs.org/en/) along with [express](http
 
 ## Demo
 
-Friend Finder lives on Heroku, check it out [here](#)
+Friend Finder lives on Heroku, check it out [here](https://salty-falls-15268.herokuapp.com/)
