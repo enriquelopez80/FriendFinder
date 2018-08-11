@@ -8,4 +8,8 @@ The app is run using [node.js](https://nodejs.org/en/) along with [express](http
 
 ## Demo
 
+<<<<<<< HEAD
 Friend Finder lives on Heroku, check it out [here](#)
+=======
+Friend Finder lives on Heroku, check it out [here](#)
+>>>>>>> 2bb85fd1dec184d54471c69f57017350a77a24ba
